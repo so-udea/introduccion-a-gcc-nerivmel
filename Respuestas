@@ -1,0 +1,23 @@
+¿Que hacen los parametros argc y argv?
+R/ argc vale 5 
+   argv es un apuntador que va a iterar 5 veces 
+
+
+
+
+¿Como se usa el programa? (Observe el video).
+R/ Comparar lo que hay en cada posicion del arreglo ardv[] con cierta cadena de caracteres y si
+son iguales imprimir su mensaje correspondiente 
+
+
+¿Que hace la funcion atoi?  
+R/ transforma una entrada en un entero se asemeja mucho a la funcion parseint en java
+
+
+Ademas de atoi existen otras funciones que permitan convertir cadenas de caracteres a numeros reales ¿cuales?
+
+R/ Para convertir una cadena a un entero lo más fácil es usar la función atoi definida en stdlib.h 
+
+
+Existen funciones que convierten valores numericos a cadenas de caracteres ¿cuales?
+R/ Para ello existe una función de stdlib.h no estándar itoa(), y como no es estándar no existe en todas las implementaciones de C, por lo que es conveniente desarrollar una versión de esta función para que podamos compilar nuestro programa en todos los compiladores, o si no disponemos de esta función, para poder utilizarla
